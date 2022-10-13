@@ -1,3 +1,15 @@
+<?php
+
+if(isset($_POST['username']) && isset($_POST['password'])){
+    $uname = $_POST['username'];
+    $upass = $_POST['username'];
+
+    $korisnik = new User(1,$uname, $upass);
+}
+
+?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
